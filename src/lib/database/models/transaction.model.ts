@@ -5,6 +5,7 @@ const TransactionSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  
   stripeId: {
     type: String,
     required: true,
